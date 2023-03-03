@@ -12,10 +12,14 @@ h1 {
 
 ul {
   list-style-type: none;
+  text-align: center;
+  margin-right: 40px;
 }
 
 ol {
   font-weight: bold;
+  text-align: center;
+  margin-right: 40px;
 }
 
 li {
@@ -29,6 +33,10 @@ li {
 
 .languages-list {
   list-style-image: url("./assets/globe.png");
+}
+
+.languages-list li:last-child:hover {
+  animation: tilt-n-move-shaking 0.25s infinite;
 }
 
 img {
@@ -50,12 +58,10 @@ h3 {
 
 html {
   background-color: rgb(159, 193, 201);
-  background: radial-gradient(
-    circle,
-    rgba(159, 193, 201, 1) 9%,
-    rgba(224, 209, 221, 1) 52%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(159, 193, 201, 1) 9%,
+      rgba(224, 209, 221, 1) 52%,
+      rgba(0, 212, 255, 1) 100%);
 }
 
 p {
@@ -68,6 +74,7 @@ h2,
 h3 {
   font-size: 20px;
 }
+
 h1,
 h2,
 h3 {
@@ -82,4 +89,22 @@ a {
 
 .skills-header {
   color: rebeccapurple;
+}
+
+@keyframes tilt-n-move-shaking {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(5px, 5px) rotate(5deg);
+  }
+  50% {
+    transform: translate(0, 0) rotate(0eg);
+  }
+  75% {
+    transform: translate(-5px, 5px) rotate(-5deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
 }
