@@ -1,5 +1,62 @@
 /* Write your CSS below. */
+p {
+  font-family: Helvetica, sans-serif;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-decoration: underline blue;
+  text-shadow: 1px 1px 2px black;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+body {
+  text-align: center;
+}
+
+.skills-header {
+  color: rebeccapurple;
+}
+
+a {
+  color: red;
+}
+
+li {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: -webkit-linear-gradient(#5e5f9e, #333);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.languages-list {
+  list-style-image: url(./assets/globe.png);
+  font-size: 30px;
+}
+
+input:focus,
+a:focus {
+  color: rgb(14, 72, 72);
+}
+
+#hardest-bug {
+  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+}
+
+#sick-solution {
+  text-shadow: 5px 5px 5px rgb(125, 121, 193);
+}
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;
