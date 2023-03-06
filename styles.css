@@ -1,17 +1,43 @@
 /* Write your CSS below. */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: Georgia, serif;
+  font-weight: 700;
+  text-decoration: rgb(0,0,255) underline;
+  text-align: center;
+}
+.profile-photo{
+  border: 1px solid blue
+}
+body{
+  text-align: center;
+}
+.skills-header{
+  color: rebeccapurple
+}
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;
   font-size: 30px;
 }
-
+p{
+  font-family: Helvetica, sans-serif;
+}
 ul {
-  list-style-type: none;
+  list-style-image: none;
+  margin: 5px 0;
+  text-align: center;
 }
 
 ol {
   font-weight: bold;
+  list-style-type: upper-roman;
+  
 }
 
 li {
@@ -57,4 +83,16 @@ p {
 h2,
 h3 {
   font-size: 20px;
+}
+a {
+  color: red;
+}
+a:hover{
+  color: navy;
+  font-weight: bold;
+}
+
+.languages-list{
+  list-style-image:url(/assets/globe.png) ;
+  
 }
