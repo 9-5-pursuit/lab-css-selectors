@@ -29,6 +29,11 @@ a {
 .languages-list {
   list-style-image: url(./assets/globe.png);
 }
+.specific-style {
+  background-color: rgb(118, 199, 249);
+  border: 5px solid rgb(229, 176, 218);
+  border-radius: 10px;
+}
 
 /* Do not change any CSS below this line. */
 h1 {
