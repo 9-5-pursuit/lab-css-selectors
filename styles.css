@@ -1,6 +1,11 @@
 /* Write your CSS below. */
 
 /* Do not change any CSS below this line. */
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
 h1 {
   color: blue;
   font-size: 30px;
@@ -31,10 +36,6 @@ img {
   margin-right: auto;
 }
 
-body {
-  font-family: sans-serif;
-}
-
 h3 {
   text-decoration-line: underline;
 }
@@ -52,9 +53,36 @@ html {
 p {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Helvetica, sans-serif;
 }
 
 h2,
 h3 {
   font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+  text-decoration: blue underline;
+  font-weight: bold;
+}
+
+.profile-photo {
+  border: blue solid 1px;
+}
+
+.skills-header {
+  color: rebeccapurple
+}
+a {
+  color: red;
+}
+
+ul.languages-list {
+  list-style-image: url(globe.png); 
 }
