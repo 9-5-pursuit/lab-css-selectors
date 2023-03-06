@@ -1,4 +1,66 @@
 /* Write your CSS below. */
+h1, 
+h2, 
+h3 {
+  font-family: Georgia, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  text-decoration: underline solid blue;
+}
+
+body {
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+.profile-photo {
+  border: 1px solid blue;
+}
+
+.skills-header {
+  color: rebeccapurple;
+}
+
+a[href] {
+  color: red;
+}
+
+.languages-list {
+  list-style-image: url(./assets/globe.png);
+}
+/* Start of personal changes */
+
+.libraries-list {
+  list-style-image: url(./assets/books.jpeg);
+}
+
+#intro {
+  border: 2px solid palevioletred;
+  border-radius: 10px;
+  background-color: palegoldenrod;
+}
+
+#hardest-bug {
+  border: 2px solid purple;
+  border-radius: 10px;
+  background-color: lavender;
+}
+
+#hardest-bug-solution {
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: lightgreen;
+}
 
 /* Do not change any CSS below this line. */
 h1 {
