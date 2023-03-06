@@ -1,5 +1,14 @@
 /* Write your CSS below. */
 
+ .profile-photo{
+          border: 1px solid rgb(0, 0, 255);
+        }
+  .skills-header{
+    color: rgb(102, 51, 153);
+  }
+  
+  
+
 /* Do not change any CSS below this line. */
 h1 {
   color: blue;
