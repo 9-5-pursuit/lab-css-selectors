@@ -9,6 +9,9 @@
   ul.languages-list{
   list-style-image: url(./assets/globe.png);
 }
+a{
+  color: red
+}
   
   
 
