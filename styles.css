@@ -6,6 +6,9 @@
   .skills-header{
     color: rgb(102, 51, 153);
   }
+  ul.languages-list{
+  list-style-image: url(./assets/globe.png);
+}
   
   
 
@@ -18,7 +21,6 @@ h1 {
 ul {
   list-style-type: none;
 }
-
 ol {
   font-weight: bold;
 }
